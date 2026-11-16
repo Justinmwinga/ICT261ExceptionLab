@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-02T10:26:02.114781500Z</date>
+  <millis>1793615162114</millis>
+  <nanos>781500</nanos>
+  <sequence>0</sequence>
+  <logger>MarksImporter</logger>
+  <level>WARNING</level>
+  <class>MarksImporter</class>
+  <method>importMarks</method>
+  <thread>3</thread>
+  <message>Invalid record at line 2</message>
+  <exception>
+    <message>java.lang.NumberFormatException: For input string: "ABC"</message>
+    <frame>
+      <class>java.lang.NumberFormatException</class>
+      <method>forInputString</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>java.lang.Integer</class>
+      <method>parseInt</method>
+      <line>529</line>
+    </frame>
+    <frame>
+      <class>java.lang.Integer</class>
+      <method>parseInt</method>
+      <line>626</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2026-11-02T10:26:02.135816800Z</date>
+  <millis>1793615162135</millis>
+  <nanos>816800</nanos>
+  <sequence>1</sequence>
+  <logger>MarksImporter</logger>
+  <level>WARNING</level>
+  <class>MarksImporter</class>
+  <method>importMarks</method>
+  <thread>3</thread>
+  <message>Duplicate record at line 3</message>
+  <exception>
+    <message>DuplicateStudentException: Duplicate student ID: ICT001</message>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-02T10:28:01.183925600Z</date>
+  <millis>1793615281183</millis>
+  <nanos>925600</nanos>
+  <sequence>0</sequence>
+  <logger>MarksImporter</logger>
+  <level>WARNING</level>
+  <class>MarksImporter</class>
+  <method>importMarks</method>
+  <thread>3</thread>
+  <message>Invalid record at line 1</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Mark must be between 0 and 100.</message>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>61</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-02T10:28:27.640551100Z</date>
+  <millis>1793615307640</millis>
+  <nanos>551100</nanos>
+  <sequence>0</sequence>
+  <logger>MarksImporter</logger>
+  <level>SEVERE</level>
+  <class>MarksImporter</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Marks file not found</message>
+  <exception>
+    <message>java.io.FileNotFoundException: absent.txt (The system cannot find the file specified)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-02T10:38:41.771214700Z</date>
+  <millis>1793615921771</millis>
+  <nanos>214700</nanos>
+  <sequence>0</sequence>
+  <logger>MarksImporter</logger>
+  <level>WARNING</level>
+  <class>MarksImporter</class>
+  <method>importMarks</method>
+  <thread>3</thread>
+  <message>Invalid record at line 2</message>
+  <exception>
+    <message>java.lang.NumberFormatException: For input string: "ABC"</message>
+    <frame>
+      <class>java.lang.NumberFormatException</class>
+      <method>forInputString</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>java.lang.Integer</class>
+      <method>parseInt</method>
+      <line>529</line>
+    </frame>
+    <frame>
+      <class>java.lang.Integer</class>
+      <method>parseInt</method>
+      <line>626</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2026-11-02T10:38:41.799590300Z</date>
+  <millis>1793615921799</millis>
+  <nanos>590300</nanos>
+  <sequence>1</sequence>
+  <logger>MarksImporter</logger>
+  <level>WARNING</level>
+  <class>MarksImporter</class>
+  <method>importMarks</method>
+  <thread>3</thread>
+  <message>Duplicate record at line 3</message>
+  <exception>
+    <message>DuplicateStudentException: Duplicate student ID: ICT001</message>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-02T10:44:26.828966100Z</date>
+  <millis>1793616266828</millis>
+  <nanos>966100</nanos>
+  <sequence>0</sequence>
+  <logger>MarksImporter</logger>
+  <level>WARNING</level>
+  <class>MarksImporter</class>
+  <method>importMarks</method>
+  <thread>3</thread>
+  <message>Invalid record at line 1</message>
+  <exception>
+    <message>java.lang.NumberFormatException: For input string: "ABC"</message>
+    <frame>
+      <class>java.lang.NumberFormatException</class>
+      <method>forInputString</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>java.lang.Integer</class>
+      <method>parseInt</method>
+      <line>529</line>
+    </frame>
+    <frame>
+      <class>java.lang.Integer</class>
+      <method>parseInt</method>
+      <line>626</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-02T10:46:01.476851400Z</date>
+  <millis>1793616361476</millis>
+  <nanos>851400</nanos>
+  <sequence>0</sequence>
+  <logger>MarksImporter</logger>
+  <level>WARNING</level>
+  <class>MarksImporter</class>
+  <method>importMarks</method>
+  <thread>3</thread>
+  <message>Duplicate record at line 2</message>
+  <exception>
+    <message>DuplicateStudentException: Duplicate student ID: ICT001</message>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-02T10:47:06.948702900Z</date>
+  <millis>1793616426948</millis>
+  <nanos>702900</nanos>
+  <sequence>0</sequence>
+  <logger>MarksImporter</logger>
+  <level>WARNING</level>
+  <class>MarksImporter</class>
+  <method>importMarks</method>
+  <thread>3</thread>
+  <message>Invalid record at line 1</message>
+  <exception>
+    <message>java.lang.IllegalArgumentException: Mark must be between 0 and 100.</message>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>61</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-11-02T10:48:00.116139600Z</date>
+  <millis>1793616480116</millis>
+  <nanos>139600</nanos>
+  <sequence>0</sequence>
+  <logger>MarksImporter</logger>
+  <level>SEVERE</level>
+  <class>MarksImporter</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Marks file not found</message>
+  <exception>
+    <message>java.io.FileNotFoundException: absent.txt (The system cannot find the file specified)</message>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>open</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>java.io.FileInputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>java.io.FileReader</class>
+      <method>&lt;init&gt;</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>importMarks</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>MarksImporter</class>
+      <method>main</method>
+      <line>122</line>
+    </frame>
+  </exception>
+</record>
+</log>
